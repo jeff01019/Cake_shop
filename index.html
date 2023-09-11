@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+    overflow: hidden;
+    background: lightblue;
+    min-height: 100vh;
+}
+
+.header {
+    color-scheme: dark;
+    color: white;
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px 0 20px;
+}
+
+.navbar a::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+.navbar a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+.main-container {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: lightgreen;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    color: rgb(255, 255, 255);
+    width: 90%;
+    height: 40px;
+    background: black;
+    margin: 20px 20px 40px 20px;
+    border-radius: 25px;
+    padding: 7px 0 0 0;
+    text-align: center;
+}
+
+.logo {
+    width: 30vh;
+    height: 30vh;
+    background: black;
+    margin: 0 20px 20px 20px ;
+}
+
+.items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: normal;
+    column-gap: 30px;
+    row-gap: 25px;
+    background: transparent;
+    margin: 0;
+}
+
+.content{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content button {
+    font-size: 10px;
+}
+
+.content label {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.pic {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    margin: 20px;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            Logo
+            <div class="navbar">
+                <a href="#">blank</a>   
+                <a href="#">blank</a>   
+                <a href="#">blank</a> 
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="logo"></div>
+            <div class="information">This is information</div>
+            <div class="items">
+                <div class="content">
+                    <label for="pic">Cake toppings</label>
+                    <img src="images/Toppings/cover.svg" alt="">
+                    <button>Browse toppings</button>
+                </div>
+                <div class="content">
+                    <label for="pic">ingrediants</label>
+                    <img src="images/ingrediants/cover.svg" alt="">
+                    <button>Browse ingrediants</button>
+                </div>
+                <div class="content">
+                    <label for="pic">Colors</label>
+                    <img src="images/colors/cover.svg" alt="">
+                    <button>Browse colors</button>
+                </div>
+                <div class="content">
+                    <label for="pic">Sprinkels</label>
+                    <img src="images/sprinkels/cover.svg" alt="">
+                    <button>Browse Sprinkels</button>
+                </div>
+                <div class="content">
+                    <label for="pic">Chocolates</label>
+                    <img src="images/chocolates/cover.svg" alt="">
+                    <button>Browse Chocolates</button>
+                </div>
+                <div class="content">
+                    <label for="pic">This is a pic</label>
+                    <div class="pic" id="pic"></div>
+                    <button>CLick me</button>
+                </div>
+                <div class="content">
+                    <label for="pic">This is a pic</label>
+                    <div class="pic" id="pic"></div>
+                    <button>CLick me</button></div>
+                <div class="content">
+                    <label for="pic">This is a pic</label>
+                    <div class="pic" id="pic"></div>
+                    <button>CLick me</button>
+                </div>
+                <div class="content">
+                    <label for="pic">This is a pic</label>
+                    <div class="pic" id="pic"></div>
+                    <button>CLick me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
