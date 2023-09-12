@@ -6,10 +6,16 @@
     font-size: 16px;
 }
 
+:root {
+    --color-main : #64CCC5;
+    --color-second : #176B87;
+    --color-darker : #053B50;
+}
+
 .main {
     width: 100%;
     overflow: hidden;
-    background: lightblue;
+    background: var(--color-main);
     min-height: 100vh;
 }
 
@@ -54,7 +60,7 @@
     position: relative;
     width: 100%;
     min-height: 50vh;
-    background: lightgreen;
+    background: var(--main-color);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -75,41 +81,75 @@
 .logo {
     width: 30vh;
     height: 30vh;
-    background: black;
+    border: 5px solid var(--color-darker);
     margin: 0 20px 20px 20px ;
 }
 
 .items {
-    width: 100%;
+    width: 105%;
     display: grid;
     grid-template-columns: auto auto auto;
     align-content: normal;
-    column-gap: 30px;
+    column-gap: 25px;
     row-gap: 25px;
     background: transparent;
     margin: 0;
 }
 
 .content{
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     background: transparent;
-    border: 1px solid black;
+    border: 2px solid var(--color-darker);
     border-radius: 15px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
 }
 
 .content button {
-    font-size: 10px;
+    font-size: 12px;
+    position: relative;
+    bottom: -10px;
+    background: var(--color-second);
+    border: 1px solid black;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 .content label {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.content img {
+    width: calc(50%) ;
+    height: calc(40%);
+    background-color: transparent;
+}
+
+#boxes-lbl {
+    position: relative;
+    top: -5px;
+}
+
+#boxes-img {
+    position: relative;
+    top: -10px;
+}
+
+#boxes-btn {
+    position: relative;
+    top: -5px;
 }
 
 .pic {
@@ -119,7 +159,6 @@
     margin: 20px;
 }
 
-img {
-    width: 50%;
-    height: 40%;
-}
+
+
+
