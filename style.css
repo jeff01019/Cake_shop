@@ -16,7 +16,21 @@
     width: 100%;
     overflow: hidden;
     background: var(--color-main);
-    min-height: 100vh;
+    min-height: calc(100vh + 70px);
+}
+
+.bottom {
+    padding: 10px;
+    text-align: center;
+}
+
+.bottom p {
+    font-size: 14px;
+}
+
+.bottom span {
+    font-size: 12px;
+    font-weight: 800 ;
 }
 
 .header {
@@ -85,6 +99,7 @@
     margin: 0 20px 20px 20px ;
 }
 
+
 .items {
     width: 105%;
     display: grid;
@@ -151,6 +166,10 @@
     position: relative;
     top: -5px;
 }
+
+
+
+
 
 
 @media (max-width: 430px) {
