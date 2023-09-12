@@ -79,6 +79,10 @@
     margin: 0 10px 0 20px;
 }
 
+.navbar a:hover {
+    text-shadow: white 0px 0px 10px;
+}
+
 .navbar a::after {
     content: " ";
     position: absolute;
@@ -199,6 +203,13 @@
     border-radius: 5px;
 }
 
+.content button a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+
+}
+
 .content label {
     font-size: 16px;
     font-weight: 800;
@@ -302,7 +313,7 @@
 
 @media (max-width: 375px) {
     .items {
-        width: 80%;
+        width: 100%;
         display: grid;
         grid-template-columns: auto auto;
         align-content: normal;
@@ -315,7 +326,7 @@
 
 @media (max-width: 320px) {
     .items {
-        width: 90%;
+        width: 100%;
         display: grid;
         grid-template-columns: auto auto;
         align-content: normal;
