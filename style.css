@@ -236,6 +236,7 @@
     border: 1px solid black;
     border-right: none;
     text-align: center;
+    border-radius: 3px 0 0 3px;
 }
 
 .input-btn button {
@@ -244,6 +245,7 @@
     border: 1px solid black;
     background: var(--color-second);
     padding: 2px;
+    border-radius:  0 3px 3px 0;
 }
 
 .content button {
