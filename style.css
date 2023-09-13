@@ -10,6 +10,7 @@
     --color-main : #64CCC5;
     --color-second : #176B87;
     --color-darker : #053B50;
+    --color-text: #00212e;
 }
 
 .main {
@@ -200,8 +201,8 @@
 .content2 label {
     font-size: 12px;
     background: var(--color-second);
-    color: var(--color-darker);
-    border: 2px solid black;
+    color: var(--color-text);
+    border: 2px solid var(--color-darker);
     border-radius: 4px;
     padding: 2px;
     position: relative;
@@ -230,7 +231,19 @@
 }
 
 .input-btn input {
-    width: 20px;
+    width: 25px;
+    background: var(--color-second);
+    border: 1px solid black;
+    border-right: none;
+    text-align: center;
+}
+
+.input-btn button {
+    height: 20px;
+    font-size: 14px;
+    border: 1px solid black;
+    background: var(--color-second);
+    padding: 2px;
 }
 
 .content button {
