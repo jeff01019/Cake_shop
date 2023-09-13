@@ -278,6 +278,12 @@
     font-weight: 800;
 }
 
+<<<<<<< HEAD
+=======
+@media (min-width: 1440px) {
+
+}
+>>>>>>> 65944f98ea177238b70a530b91320eceace57e11
 @media (max-width: 768px) {
     .items2 {
         width: 105%;
@@ -289,6 +295,33 @@
         background: transparent;
         margin: 0;
     }
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 540px) {
+    .items2 {
+        width: 105%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: normal;
+        column-gap: 40px;
+        row-gap: 40px;
+        background: transparent;
+        margin: 0;
+    }
+
+    .content2 label {
+        font-size: 12px;
+        background: var(--color-second);
+        color: var(--color-darker);
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 2px;
+        position: relative;
+        top: -30px;
+    }
+>>>>>>> 65944f98ea177238b70a530b91320eceace57e11
 }
  
 @media (min-width: 1024px) {
