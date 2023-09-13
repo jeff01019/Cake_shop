@@ -44,7 +44,7 @@
 }
 
 .heading {
-    width: 100%;
+    width: calc(100% + 40px);
     height: 50px;
     background: var(--color-darker);
     color: white;
@@ -57,7 +57,7 @@
 }
 
 .sub-heading {
-    width: 70%;
+    width: calc(100% - 10px);
     height: 30px;
     background: var(--color-darker);
     color: white;
@@ -66,6 +66,11 @@
     align-items: center;
     border-radius: 25px;
     border: 3px solid black;
+    margin: 0px 0 40px 0;
+}
+
+#sub-heading2 {
+    margin: 40px 0 30px 0;
 }
 
 .heading p {
@@ -201,6 +206,7 @@
     padding: 2px;
     position: relative;
     top: -10px;
+    text-align: center;
 }
 
 .content2 span {
