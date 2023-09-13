@@ -278,11 +278,7 @@
     font-weight: 800;
 }
 
-<<<<<<< HEAD
-@media (min-width: 1440px) {
-=======
 @media (max-width: 768px) {
->>>>>>> 8448963d924cb19a6b1ce5c9fa169c22fbe2ad9b
     .items2 {
         width: 105%;
         display: grid;
@@ -292,50 +288,6 @@
         row-gap: 40px;
         background: transparent;
         margin: 0;
-    }
-<<<<<<< HEAD
-
-    .content2 {
-        width: 185px;
-        height: 260px;
-        background: transparent;
-        border: 2px solid var(--color-darker);
-        border-radius: 15px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding:0;
-        overflow: hidden;
-    }
-=======
-}
-
-@media (max-width: 540px) {
-    .items2 {
-        width: 105%;
-        display: grid;
-        grid-template-columns: auto auto;
-        align-content: normal;
-        column-gap: 40px;
-        row-gap: 40px;
-        background: transparent;
-        margin: 0;
-    }
-}
->>>>>>> 8448963d924cb19a6b1ce5c9fa169c22fbe2ad9b
-
-    .content2 label {
-        font-size: 12px;
-        background: var(--color-second);
-        color: var(--color-darker);
-        border: 2px solid black;
-        border-radius: 4px;
-        padding: 2px;
-        position: relative;
-        top: -30px;
     }
 }
  
@@ -378,6 +330,7 @@
     }
 }
 
+
 @media (max-width: 540px) {
     .items2 {
         width: 105%;
@@ -388,6 +341,17 @@
         row-gap: 40px;
         background: transparent;
         margin: 0;
+    }
+
+    .content2 label {
+        font-size: 12px;
+        background: var(--color-second);
+        color: var(--color-darker);
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 2px;
+        position: relative;
+        top: -10px;
     }
 }
 
@@ -506,11 +470,7 @@
     
 }
 
-<<<<<<< HEAD
 @media (max-width: 340px) {
-=======
-@media (max-width: 325px) {
->>>>>>> 8448963d924cb19a6b1ce5c9fa169c22fbe2ad9b
     .items {
         width: 100%;
         display: grid;
@@ -531,19 +491,5 @@
         row-gap: 20px;
         background: transparent;
         margin: 0;
-<<<<<<< HEAD
-=======
-    }  
-
-    .items2 {
-        width: 105%;
-        display: grid;
-        grid-template-columns: auto auto;
-        align-content: normal;
-        column-gap: 20px;
-        row-gap: 20px;
-        background: transparent;
-        margin: 0;
->>>>>>> 8448963d924cb19a6b1ce5c9fa169c22fbe2ad9b
     }
 }
