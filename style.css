@@ -278,7 +278,31 @@
     font-weight: 800;
 }
 
+@media (max-width: 768px) {
+    .items2 {
+        width: 105%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: normal;
+        column-gap: 40px;
+        row-gap: 40px;
+        background: transparent;
+        margin: 0;
+    }
+}
 
+@media (max-width: 540px) {
+    .items2 {
+        width: 105%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: normal;
+        column-gap: 40px;
+        row-gap: 40px;
+        background: transparent;
+        margin: 0;
+    }
+}
 
 @media (max-width: 460px) {
     .content{
@@ -315,6 +339,18 @@
         padding: 2px;
         border-radius: 5px;
     }
+
+    .items2 {
+        width: 105%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: normal;
+        column-gap: 40px;
+        row-gap: 40px;
+        background: transparent;
+        margin: 0;
+    }
+    
 }
 
 @media (max-width: 380px) {
@@ -344,6 +380,18 @@
         background: transparent;
         margin: 0;
     }
+
+    .items2 {
+        width: 105%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: normal;
+        column-gap: 40px;
+        row-gap: 40px;
+        background: transparent;
+        margin: 0;
+    }
+    
 }
 
 @media (max-width: 375px) {
@@ -357,9 +405,21 @@
         background: transparent;
         margin: 0;
     }
+
+    .items2 {
+        width: 105%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: normal;
+        column-gap: 40px;
+        row-gap: 40px;
+        background: transparent;
+        margin: 0;
+    }
+    
 }
 
-@media (max-width: 320px) {
+@media (max-width: 325px) {
     .items {
         width: 100%;
         display: grid;
@@ -370,4 +430,15 @@
         background: transparent;
         margin: 0;
     }  
+
+    .items2 {
+        width: 105%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: normal;
+        column-gap: 20px;
+        row-gap: 20px;
+        background: transparent;
+        margin: 0;
+    }
 }
