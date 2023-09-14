@@ -16,7 +16,7 @@
 .main {
     width: 100%;
     overflow: hidden;
-    background: lightpink ;
+    background: var(--color-main) ;
     min-height: calc(100vh + 70px);
 }
 
