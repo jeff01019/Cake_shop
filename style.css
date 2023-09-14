@@ -7,8 +7,8 @@
 }
 
 :root {
-    --color-main : lightpink ;
-    --color-second : white ;
+    --color-main : #64CCC5 ;
+    --color-second : #176B87 ;
     --color-darker : #053B50;
     --color-text: #00212e;
 }
