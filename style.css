@@ -328,6 +328,38 @@
     font-weight: 800;
 }
 
+.color1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.color2 {
+    z-index: -1;
+}
+
+.color1 p {
+    position: absolute;
+    font-size: 14px;
+    text-wrap: wrap ;
+    left: 5px;
+    top: 5px;
+    z-index: 1;
+}
+
+.color1 img {
+    width: 300%;
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    z-index: 0;
+}
+
+.color2 img {
+    width: 100%;
+}
+
 @media (min-width: 1440px) {
     .items2 {
         width: 105%;
