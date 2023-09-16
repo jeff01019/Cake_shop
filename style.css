@@ -7,8 +7,8 @@
 }
 
 :root {
-    --color-main : #64CCC5;
-    --color-second : #176B87;
+    --color-main : #64CCC5 ;
+    --color-second : #176B87 ;
     --color-darker : #053B50;
     --color-text: #00212e;
 }
@@ -16,7 +16,7 @@
 .main {
     width: 100%;
     overflow: hidden;
-    background: var(--color-main);
+    background: var(--color-main) ;
     min-height: calc(100vh + 70px);
 }
 
