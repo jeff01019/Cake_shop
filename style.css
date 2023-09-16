@@ -365,6 +365,10 @@
     opacity: 1;
 }
 
+.color1-small img{
+    width: 50%;
+}
+
 
 .color1 p {
     position: absolute;
@@ -631,4 +635,9 @@
 .hidden {
     opacity: 0;
     z-index: 2;
+}
+
+.white {
+    color: white;
+    font-weight: 600;
 }
