@@ -8,4 +8,4 @@ for (let i = 0; i < box.length; i++) {
         color1.classList.toggle('hidden');
         color2.classList.toggle('hidden');
     });
-};
+}; 
