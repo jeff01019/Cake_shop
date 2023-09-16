@@ -1,14 +1,11 @@
-let box = document.getElementById('Fuchsia');
-let box2 = document.getElementById('Flamingo');
-let color1 = document.getElementById('Fuchsia_1');
-let color2 = document.getElementById('Fuchsia_2');
+const box = document.querySelectorAll('.content3');
 
-box.addEventListener('click', function () {
-    color2.style.zIndex = 2;
-    color1.style.opacity = 0;
-    
-});
+for (let i = 0; i < box.length; i++) {
+    box[i].addEventListener('click', function() {
+        const color1 = this.querySelector('.color1');
+        const color2 = this.querySelector('.color2');
 
-function ChangeOppacity () {
-    console.log(box.firstChild);
-}
+        color1.classList.toggle('hidden');
+        color2.classList.toggle('hidden');
+    });
+};

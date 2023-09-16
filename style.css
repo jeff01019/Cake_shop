@@ -185,7 +185,7 @@
 .items3 {
     width: 105%;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     align-content: normal;
     column-gap: 20px;
     row-gap: 20px;
@@ -335,9 +335,7 @@
     opacity: 1;
 }
 
-.color2 {
-    z-index: -1;
-}
+
 
 .color1 p {
     position: absolute;
@@ -589,4 +587,13 @@
         background: transparent;
         margin: 0;
     }
+}
+
+.active {
+    color: black;
+}
+
+.hidden {
+    opacity: 0;
+    z-index: 2;
 }
