@@ -182,6 +182,17 @@
     margin: 0;
 }
 
+.items3 {
+    width: 105%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: normal;
+    column-gap: 20px;
+    row-gap: 20px;
+    background: transparent;
+    margin: 0;
+}
+
 .content2 {
     width: 145px;
     height: 220px;
@@ -197,6 +208,23 @@
     padding: 2px;
     overflow: hidden;
 }
+
+.content3 {
+    width: 80px;
+    height: 100px;
+    background: transparent;
+    border: 2px solid var(--color-darker);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+}
+
 
 .content2 label {
     font-size: 12px;
@@ -222,6 +250,7 @@
     border-radius: 15px ;
     margin: 5px;
 }
+
 
 .input-btn {
     display: flex;
