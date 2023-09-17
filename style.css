@@ -7,10 +7,15 @@
 }
 
 :root {
-    --color-main : #64CCC5 ;
-    --color-second : #176B87 ;
-    --color-darker : #053B50;
+    --color-main : #ffffffb7 ;
+    --color-second : #b173007c ;
+    --color-darker : #b46601;
     --color-text: #00212e;
+
+    --prev-main-color: #64CCC5;
+    --prev-second-color: #176B87;
+    --prev-darker-color: #053B50;
+    --prev-text-color: ;
 }
 
 .main {
