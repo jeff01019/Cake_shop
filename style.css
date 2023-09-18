@@ -384,9 +384,14 @@
     position: absolute;
     font-size: 16px;
     text-wrap: wrap ;
-    left: 5px;
-    top: 40px;
+    left: 0;
+    top: 30px;
     z-index: 1;
+    padding: 5px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 2px solid var(--color-darker);
+    border-bottom: 2px solid var(--color-darker);
 }
 
 .color1 img {
@@ -650,9 +655,15 @@
 .white {
     color: white;
     font-weight: 600;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
 }
 
 .black {
     color: black;
     font-weight: 600;
+    background: white;
+    width: 100%;
 }
