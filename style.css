@@ -375,8 +375,8 @@
     opacity: 1;
 }
 
-.color1-small img{
-    width: 50%;
+.color1-small{
+    scale: 3;
 }
 
 
