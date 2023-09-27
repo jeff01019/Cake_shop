@@ -735,3 +735,17 @@
     margin-left: 5px;
 }
 
+.ingrediant-img {
+    height: 100px;
+    width: 80%;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    position: relative;
+    transition: transform 0.5s ease-in;
+}
+
+.scaler {
+    transform: scale(0);
+}
+
